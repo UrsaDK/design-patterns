@@ -16,8 +16,11 @@ A list of languages implementations and patterns included in this repository is 
 
 The following patterns are included:
 
-- [**Template**](./template) – for optimising identical code that does exactly the same thing except in one place, where sometimes it wants to do one thing, sometimes another.
-
-- [**Strategy**](./strategy) – blah
-
-- [**Observer**](./observer) – for when we have Class A that needs to know what happens in Class B, or for when Class A needs to react to changes in class B.
+- [**Strategy**](./strategy) – process Class A using a set of rules defined by Class B.
+- [**Observer**](./observer) – for when Class A needs to react to changes in Class B.
+- [**Composites**](./composites) – helps to build a tree of leaf / trunk nodes.
+- [**Iterator**](./iterator) – for when each object in Class A needs to be fetched in turn.
+- [**Command**](./command) – separate the description of a thing from its actions.
+- [**Adapter**/**Decorator**/**Proxy**](./adapter) – separation of concerns, Class B extends functionality of Class A.
+- [**Singleton**](./singleton) – There can only be one!
+- [**Builder**/**Factory**](./builder) – assemble a whole out of multiple components.
